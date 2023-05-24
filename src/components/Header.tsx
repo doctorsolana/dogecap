@@ -62,17 +62,17 @@ export function Header() {
   return (
     <Wrapper>
       <NavigationLink to="/">
-        <Logo src="/logo.png" />
-        <div className="label">Gamba Demo</div>
+        <Logo src="/logowhite.svg" />
+        <div className="label">Doge Bet</div>
       </NavigationLink>
       <Links>
-        <a target="_blank" href="https://github.com/gamba-labs/gamba" rel="noreferrer">
+        <a target="_blank" href="https://github.com/Doge-Capital" rel="noreferrer">
           <FaGithub />
         </a>
-        <a target="_blank" href="http://discord.gg/xjBsW3e8fK" rel="noreferrer">
+        <a target="_blank" href="https://discord.com/invite/dogecapital" rel="noreferrer">
           <FaDiscord />
         </a>
-        <a target="_blank" href="https://twitter.com/GambaLabs" rel="noreferrer">
+        <a target="_blank" href="https://twitter.com/thedogecapital" rel="noreferrer">
           <FaTwitter />
         </a>
       </Links>

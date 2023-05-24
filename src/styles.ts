@@ -16,7 +16,7 @@ export const theme: DefaultTheme = {
     background: '#080809',
     backgroundLight: '#1a1c24',
     textColor: '#ffffff',
-    primary: '#ff335c',
+    primary: '#ffffff',
   },
 }
 
@@ -153,7 +153,7 @@ export const Banner = styled.div<{size: 'big' | 'medium' | 'default'}>`
     left: 0px;
     top: 0px;
     position: absolute;
-    background-image: linear-gradient(0deg, var(--bg-color) 0%, ${({ theme }) => theme.palette.background}00 100%);
+    background-image: linear-gradient(0deg, var(--bg-color) 0%, ${({ theme }) => theme.palette.background}00 70%);
   }
 `
 
